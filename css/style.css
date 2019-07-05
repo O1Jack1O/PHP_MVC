@@ -1,0 +1,183 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #353535;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	line-height: 1.75em;
+	background: #fff url('../images/00bd.png');
+
+	font-size: 11.5pt;
+	color: #353535;
+}
+
+body,input {
+	font-family: Kreon, serif;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "Open Sans", sans-serif;
+	color: #353535;
+	margin-bottom: 0em;
+	padding: 1%;
+	font-size: 1.75em;
+}
+
+
+
+img.alignleft {
+	float: left;
+	margin: 5px 30px 20px 0;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+a {
+	color: #353535;
+}
+
+#content {
+
+	padding-left: 50px;
+	padding-right: 50px;
+	width: auto;
+	margin: 0 0 0 0px;
+}
+
+
+
+
+#header {
+	height: auto;
+	padding: 40px;
+	position: relative;
+
+}
+
+
+
+#menu {
+	line-height: 20px;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+	height: 40px;
+	font-family: "Open Sans", sans-serif;
+}
+
+#menu a {
+	align-content: center;
+	color: #1C1C1C;
+	font-size: 0em;
+}
+
+#menu a:hover {
+	text-decoration: none;
+}
+
+#menu ul {
+	padding: 0 20px 0 20px;
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 2px 2px 2px 2px;
+	margin: 0 2px 0 2px;
+}
+#menu label {
+
+}
+
+
+
+#wrapper {
+	width: auto;
+	position: relative;
+	background: #FFF;
+	margin: 0 40 0 40;
+	box-shadow: 10px 100px 150px 0px rgba(0,0,0,0.15);
+	border: solid 1px #f3f3f3;
+	border-top: 0;
+}
+
+.box img {
+	margin: 0px 20px 0px 0px;
+	border: solid 1px #e3e3e3;
+}
+
+.box p {
+	margin-bottom: 0em;
+}
+
+.box ul{
+	margin-bottom: 0em;
+	list-style: square inside;
+}
+
+.box table {
+	width: 100%;
+	margin:auto;
+	border-collapse:collapse;
+}
+
+.box table, th, td {
+	text-align: center;
+	border: 1px solid #e3e3e3;
+	padding: 5px;
+}
+textarea{
+	overflow: hidden;
+	display: inline-block;
+	width: auto;
+}
+textarea {
+
+	text-align:center;
+	width: 400px;
+	height: 100px;
+}
+div #wrapper  {
+	display: inline;
+}
+div#pagination {
+	display: contents;
+	width: auto;
+}
+div#pagination form {
+	display: inline;
+	align-items: center;
+	justify-content: center;
+}
